@@ -21,3 +21,11 @@ body {
   z-index: -1; /* To keep it in the background */
   /* Add any other styling properties here */
 }
+
+body {
+  background-image: url('/bg.jpg');
+  background-size: cover; /* Zooms the background image to cover the entire element */
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: top;
+}

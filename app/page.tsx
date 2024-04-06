@@ -1,4 +1,4 @@
-import Background from "@/components/Background";
+
 import Hero from "@/components/Hero";
 import Info from "@/components/Info";
 import Opening from "@/components/Opening";
