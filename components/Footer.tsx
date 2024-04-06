@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer className="bg-white flex justify-center bg-opacity-35 backdrop-blur-lg">
       <div className="w-[1100px] md:py-[50px] py-[40px]">
         <div className='flex md:justify-between md:flex-row flex-col-reverse md:px-0 px-10 md:gap-y-0 gap-y-4'>
-          <p className='leading-[35px] md:text-left text-center'>© 2023 Juice Lab & Co. All rights reserved.</p>
+          <p className='leading-[35px] md:text-left text-center'>© {currentYear} Juice Lab & Co. All rights reserved.</p>
           <div className="flex flex-row gap-4 md:justify-normal justify-center">
             <Link
               target="_blank"
