@@ -6,7 +6,7 @@ const Info = () => {
     <div className='flex justify-center'>
     <div className="bg-white backdrop-blur-lg w-[1100px] rounded-[30px] overflow-hidden shadow-[0_0px_60px_-15px_rgba(0,0,0,0.3)] bg-opacity-35 my-20 md:mx-0 mx-6 flex md:flex-row flex-col justify-start items-center gap-x-12">
       <div className="overflow-hidden">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13243.791826048771!2d151.0387597!3d-33.916739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd8377d24b15%3A0xe287d4079e2d04cd!2sJuice%20Lab%20and%20Co.!5e0!3m2!1sen!2sau!4v1712394180189!5m2!1sen!2sau" className='md:w-[600px] md:h-[450px] w-screen md:px-0 px-6 h-[350px] ' allowFullScreen={false} loading="lazy" ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13243.791826048771!2d151.0387597!3d-33.916739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd8377d24b15%3A0xe287d4079e2d04cd!2sJuice%20Lab%20and%20Co.!5e0!3m2!1sen!2sau!4v1712394180189!5m2!1sen!2sau" className='md:w-[600px] md:h-[450px] w-screen md:px-0 px-6 h-[350px] ' frameBorder="0" style={{ border: 'none' }} allowFullScreen={false} loading="lazy" ></iframe>
       </div>
 
       <div className="w-[400px] ml-4 md:px-0 px-6 md:py-0 pb-12 pt-8">
