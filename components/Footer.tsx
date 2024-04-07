@@ -28,7 +28,7 @@ const Footer = () => {
             <Link
               target="_blank"
               aria-label="Facebook"
-              href="https://www.facebook.com/xicko"
+              href="https://www.facebook.com/"
             >
               <svg
                 width="35"

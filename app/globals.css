@@ -33,3 +33,89 @@ body {
 .svg-color {
   fill: rgb(49, 49, 49);
 }
+
+/* Mabry Font */
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/MabryPro-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MabryPro';
+  src: url('/Mabry/MabryPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.customfont {
+  font-family: 'MabryPro', sans-serif;
+}
+/* Mabry Font */

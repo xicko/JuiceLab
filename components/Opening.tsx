@@ -7,15 +7,15 @@ const Header: React.FC = () => {
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const titles = ['Acai', 'Juices', 'Desserts', 'Drinks', 'Fruits'];
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-  const photos = ['/testphoto1/a1.png', '/testphoto1/a2.png', '/testphoto1/a3.png', '/testphoto1/a4.png', '/testphoto1/a5.png']; // Add your photo URLs here
-  const slideshowInterval = 3000; // Change photo every 5 seconds
+  const photos = ['/testphoto2/standard.png','/testphoto2/jumbo.png', '/testphoto1/a1.png', '/testphoto1/a2.png', '/testphoto1/a3.png', '/testphoto1/a4.png', '/testphoto1/a5.png']; // Add your photo URLs here
+  const slideshowInterval = 1000; // Change photo every 5 seconds
 
   useEffect(() => {
     const titleInterval = setInterval(() => {
       setCurrentTitleIndex((prevIndex) =>
         prevIndex === titles.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change title every 3 seconds
+    }, 1000); // Change title every 3 seconds
 
     const photoInterval = setInterval(() => {
       setCurrentPhotoIndex((prevIndex) =>
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
 <div className='flex justify-center'>
     <div className="bg-white backdrop-blur-lg w-[1100px] rounded-[30px] overflow-hidden shadow-[0_0px_60px_-15px_rgba(0,0,0,0.3)] bg-opacity-35 my-20 md:mx-0 mx-6 md:py-20 py-8 mt-[200px] flex md:flex-row flex-col justify-center items-center gap-x-8">
       <div className=" overflow-hidden">
-        <div className="relative md:w-[500px] md:h-[600px] w-[300px] pb-[75%] overflow-y-hidden">
+        <div className="relative md:w-[400px] md:h-[400px] w-[300px] pb-[75%] overflow-y-hidden">
           <Image
             className="absolute inset-0 w-full h-full object-contain"
             src={photos[currentPhotoIndex]}
